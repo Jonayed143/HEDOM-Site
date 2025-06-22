@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Items</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        h2 {
+            margin-top: 30px;
+        }
+        .item {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px;
+            background-color: #fff;
+            text-align: center;
+            display: inline-block;
+            width: 200px;
+        }
+        .item img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <img src="path/to/logo.png" alt="Shop Logo" width="200">
+    <h1>Welcome to Our Shop</h1>
+</header>
+<section>
+    <h2>Boys' Items</h2>
+    <div class="items">
+        <!-- Boys' items -->
+        <div class="item">
+            <img src="path/to/boys-item1.png" alt="Boys Item 1">
+            <h3>Boys Item 1</h3>
+            <p>Price: 1000 Taka</p>
+        </div>
+        <div class="item">
+            <img src="path/to/boys-item2.png" alt="Boys Item 2">
+            <h3>Boys Item 2</h3>
+            <p>Price: 1000 Taka</p>
+        </div>
+        <div class="item">
+            <img src="path/to/boys-item3.png" alt="Boys Item 3">
+            <h3>Boys Item 3</h3>
+            <p>Price: 1000 Taka</p>
+        </div>
+        <!-- Add 7 more boys' items in similar fashion -->
+    </div>
+    <h2>Girls' Items</h2>
+    <div class="items">
+        <!-- Girls' items -->
+        <div class="item">
+            <img src="path/to/girls-item1.png" alt="Girls Item 1">
+            <h3>Girls Item 1</h3>
+            <p>Price: 1000 Taka</p>
+        </div>
+        <div class="item">
+            <img src="path/to/girls-item2.png" alt="Girls Item 2">
+            <h3>Girls Item 2</h3>
+            <p>Price: 1000 Taka</p>
+        </div>
+        <div class="item">
+            <img src="path/to/girls-item3.png" alt="Girls Item 3">
+            <h3>Girls Item 3</h3>
+            <p>Price: 1000 Taka</p>
+        </div>
+        <!-- Add 7 more girls' items in similar fashion -->
+    </div>
+    <h2>Baby Items</h2>
+    <div class="items">
+        <!-- Baby items -->
+        <div class="item">
+            <img src="path/to/baby-item1.png" alt="Baby Item 1">
+            <h3>Baby Item 1</h3>
+            <p>Price: 1000 Taka</p>
+        </div>
+        <div class="item">
+            <img src="path/to/baby-item2.png" alt="Baby Item 2">
+            <h3>Baby Item 2</h3>
+            <p>Price: 1000 Taka</p>
+        </div>
+        <div class="item">
+            <img src="path/to/baby-item3.png" alt="Baby Item 3">
+            <h3>Baby Item 3</h3>
+            <p>Price: 1000 Taka</p>
+        </div>
+        <!-- Add 7 more baby items in similar fashion -->
+    </div>
+</section>
+</body>
+</html>
